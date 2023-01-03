@@ -1,0 +1,109 @@
+.tahapam_title {
+    width: 600px;
+    margin-bottom: 65px;
+}
+
+.tahapan_item_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tahapan_item {
+    width: 30%;
+    height: 340px;
+    padding: 30px 30px;
+    border: 1px solid #c7d7df62;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.tahapan_item:hover {
+    box-shadow: 8px 7px 9px 0px rgba(0, 0, 0, 0.32);
+    -webkit-box-shadow: 8px 7px 9px 0px rgba(0, 0, 0, 0.32);
+    -moz-box-shadow: 8px 7px 9px 0px rgba(0, 0, 0, 0.32);
+}
+
+.tahapan_item h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #203239;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.tahapan_item h3::after {
+    position: absolute;
+    content: '';
+    left: -30px;
+    top: 0;
+    width: 8px;
+    height: 30px;
+    background: #FF7527;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.tahapan_item span {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    color: #FF7527;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.tahapan_item p {
+    color: #2032398C;
+}
+
+.tahapan_btn {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+}
+
+.tahapan_btn a {
+    font-weight: 500;
+    color: #203239;
+    position: relative;
+    padding: 5px 15px;
+}
+
+.tahapan_btn a::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background: #D6D5C7;
+    z-index: -1;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.tahapan_btn a:hover::after {
+    width: 100%;
+}
+
+.tahapan_btn a i {
+    margin-left: 8px;
+}
